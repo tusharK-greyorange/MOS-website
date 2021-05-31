@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/08662d5484.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.png" class="logo" alt="MOSlogo" />
+      <a id="nav-link" onclick="showNavbar()" href="#/"
+        ><i class="fas fa-bars"></i
+      ></a>
+      <nav class="header-nav">
+        <ul class="header-links">
+          <li class="active-header"><a href="#home">Home</a></li>
+          <li><a href="#tachografy-efas">Tachografy Efas</a></li>
+          <li><a href="#autotacho">Autotacho</a></li>
+          <li><a href="#it-služby">IT Služby</a></li>
+          <li><a href="#reference">Reference</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+          <li id="shop-link">
+            <a href="https://www.amazon.in/" target="_blank">E-SHOP</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="https://www.amazon.in/" target="_blank"
+        ><button id="shop-button">E-shop</button></a
+      >
+    </header>
+
+    <nav class="side-nav">
+      <ul class="side-nav-links">
+        <li class="active-header">
+          <span data-="Home" class="sideNav-hover-text"
+            ><a href="#home"></a
+          ></span>
+        </li>
+        <li>
+          <span data-="Tachografy Efas" class="sideNav-hover-text"
+            ><a href="#tachografy-efas"></a
+          ></span>
+        </li>
+        <li>
+          <span data-="Autotacho" class="sideNav-hover-text"
+            ><a href="#autotacho"></a
+          ></span>
+        </li>
+        <li>
+          <span data-="IT Služby" class="sideNav-hover-text"
+            ><a href="#it-služby"></a
+          ></span>
+        </li>
+        <li>
+          <span data-="Reference" class="sideNav-hover-text"
+            ><a href="#reference"></a
+          ></span>
+        </li>
+        <li>
+          <span data-="Kontakt" class="sideNav-hover-text"
+            ><a href="#contact"></a
+          ></span>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Banners start -->
+      <div class="main-content page-section" id="home">
+        <h1>Spolehlivý partner v oboru informačních technologií</h1>
+        <p>
+          Nabízíme širokou škálu produktů v oblasti informačních a komunikačních
+          technologií a systémů.
+        </p>
+        <p>Jsme na trhu od roku 1991.</p>
+        <p id="nase-produkty-down">
+          Naše Produkty <br />
+          ∨
+        </p>
+      </div>
+
+      <div class="main-content page-section" id="tachografy-efas">
+        <h1>Tachografy Efas</h1>
+        <p>
+          Nová generace digitálních tachografů Nejmodernější tachografy na trhu,
+          splňují všechny požadavky dle nařízení EU.
+        </p>
+        <p>Usnadňují práci, zvyšují produktivitu a šetří finance.</p>
+        <a href="http://www.tachograf-efas.cz" target="_blank"
+          ><button class="main-content-button" id="tachografy-efas-button">
+            Přejít na Tachografy <i class="fas fa-chevron-right"></i></button
+        ></a>
+      </div>
+
+      <div class="main-content page-section" id="autotacho">
+        <h1>Tacho Plus</h1>
+        <p>
+          Kompletní řešení pro archivaci a správu dat z digitálních a
+          analogových tachografů.
+        </p>
+        <br />
+        <p>
+          Vyhodnocení dat tachografu pro jednoho řidiče zdarma:
+          <a
+            id="autotacho-link"
+            href="http://www.auto-tacho.cz/files/autotacho-demo.zip"
+            >stahujte demoverzi programu zde!</a
+          >
+        </p>
+        <a href="http://www.auto-tacho.cz/files/autotacho-demo.zip"
+          ><img
+            id="tacho-plus-img"
+            src="./images/TachoPlus.png"
+            alt="tacho plus free driver"
+        /></a>
+        <a href="http://www.auto-tacho.cz" target="_blank">
+          <button class="main-content-button" id="autotacho-button">
+            Přejít na Autotacho <i class="fas fa-chevron-right"></i></button
+        ></a>
+      </div>
+
+      <div class="main-content page-section" id="it-služby">
+        <h1>IT Služby a Prodej</h1>
+        <p>
+          Poskytování profesionálních IT služeb , autorizovaný prodej hardwaru a
+          softwaru.
+        </p>
+        <a href="https://www.amazon.in/" target="_blank"
+          ><button class="main-content-button" id="it-služby-button">
+            Přejít do E-shopu <i class="fas fa-chevron-right"></i></button
+        ></a>
+      </div>
+      <!-- Banners end -->
+
+      <!-- Reference start -->
+      <div id="reference" class="page-section">
+        <div id="person1">
+          <p>
+            Firma MOS mi dodala potřebné vybavení v<span class="bold">č</span
+            >etn<span class="bold">ě</span> bezproblémové instalace a servisních
+            slu<span class="bold">ž</span>eb. Spolupráce probíhá i nadále a díky
+            této skute<span class="bold">č</span>nosti se mohu neru<span
+              class="bold"
+              >š</span
+            >en<span class="bold">ě</span> v<span class="bold">ě</span>novat své
+            práci.
+          </p>
+          <address>
+            MUDr. Jiří Pumprla, <br />
+            Vila Zdraví Olomouc
+          </address>
+        </div>
+
+        <div id="person2" class="active-reference">
+          <p>
+            Firma MOS je na<span class="bold">š</span>ím stabilním obchodním
+            partnerem a v<span class="bold">ž</span>dy vychází vstříc na<span
+              class="bold"
+              >š</span
+            >im po<span class="bold">ž</span>adavkům…
+          </p>
+          <address>
+            Lumír Honus, <br />
+            LUMIXMETAL s.r.o.
+          </address>
+        </div>
+
+        <div id="person3">
+          <p>
+            Od firmy MOS nakupujeme produkty ji<span class="bold">ž</span>
+            n<span class="bold">ě</span>kolik let a je pro nás v<span
+              class="bold"
+              >ž</span
+            >dy spolehlivým partnerem...
+          </p>
+          <address>
+            RNDr. Luděk Šťastný, <br />
+            Stavoprojekt Olomouc a.s.
+          </address>
+        </div>
+        <ul id="avatars">
+          <li id="avatar1">
+            <img src="./images/avatar1.png" alt="avatar1" />
+          </li>
+          <li id="avatar2" class="selected-avatar">
+            <img src="./images/avatar2.png" alt="avatar2" />
+          </li>
+          <li id="avatar3">
+            <img src="./images/avatar3.png" alt="avatar3" />
+          </li>
+        </ul>
+        <ul id="avatar-mob-nav">
+          <li id="avatar-nav1"></li>
+          <li id="avatar-nav2" class="selected-avatar-nav"></li>
+          <li id="avatar-nav3"></li>
+        </ul>
+      </div>
+      <!-- Reference end -->
+
+      <div id="google-map">
+        <!-- Map code
+        <div
+          id="map"
+          style="width: 400px; height: 400px; background: grey"
+        ></div>
+        <script>
+          function myMap() {
+            var mapOptions = {
+              center: new google.maps.LatLng(51.5, -0.12),
+              zoom: 10,
+              mapTypeId: google.maps.MapTypeId.HYBRID,
+            };
+            var map = new google.maps.Map(
+              document.getElementById("map"),
+              mapOptions
+            );
+          }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script> -->
+      </div>
+      <div id="contact" class="page-section">
+        <h1>Kontaktujte nás</h1>
+        <p>
+          Pro každého zákazníka máme individuální řešení ušité přímo na míru dle
+          jeho požadavků
+        </p>
+        <div id="contact-area">
+          <div id="contact-details">
+            <ul>
+              <li id="address-li">
+                <h3>MOS Spol. s r.o.</h3>
+                <h4>Vlkova 21, Olomouc 77900</h4>
+              </li>
+              <li id="phone-li">
+                <a href="tel:585 522 23 97" title="Call us"
+                  >tel: 585 522 23 97</a
+                >
+                <br />
+                <a href="tel:737 260 646" title="Call us">mob: 737 260 646</a>
+              </li>
+              <li id="mail-li">
+                <a href="mailto:info@mos.cz" title="Mail us on">info@mos.cz</a>
+                <br />
+                <a href="mailto:junker@mos.cz" title="Mail us on"
+                  >junker@mos.cz</a
+                >
+              </li>
+            </ul>
+          </div>
+          <form action="./sendform.php" method="POST" id="contact-form">
+            <input
+              type="text"
+              id="name-field"
+              name="name"
+              placeholder="Jméno"
+            />
+            <input
+              type="text"
+              id="email-field"
+              name="email"
+              placeholder="Email"
+            />
+            <input
+              type="text"
+              id="phone-field"
+              name="phone"
+              placeholder="Telefon"
+            />
+            <textarea
+              name=""
+              id="msg-text-field"
+              cols="30"
+              rows="8"
+              placeholder="Vaše zpráva"
+            ></textarea>
+            <input type="submit" id="submit-button" value="Odeslat" />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/pages/MOS/274803059353183"
+            >Facebook</a
+          >
+        </li>
+      </ul>
+      <div id="line"></div>
+      <a href="./index.html"><img src="./images/footerlogo.png" alt="" /></a>
+      <span>&copy; Copyright . MOS . 2013</span>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
